@@ -1,0 +1,433 @@
+<style>
+p{
+  display: inline;  
+}
+</style>
+
+ <body>  
+
+<select >
+    <option value = "Please select a subject">Please select a subject</option>   
+    <option value="one">Math</option>
+    <option value="two">Math Literacy</option>
+    <option value="three">AP Math</option>
+  </select>
+  <input name="idValue" id="idValue" type="hidden">
+
+
+
+Enter Mark :
+
+<input type="text" id="Text1" name="TextBox2" oninput="myFunction1()" >
+
+APS :
+<p id =txtresult ></p>
+
+<br>
+<!--2-->
+<select >
+    <option value =  "primary-language">Please select a primary language</option>   
+    <option value="one">English</option>
+    <option value="two">Afrikaans</option>
+    <option value="three">Zulu</option>
+  </select>
+  <input name="idValue" id="idValue" type="hidden">
+
+
+
+Enter Mark :
+
+<input type="text" id="Text2" name="TextBox2" oninput="myFunction2()">
+APS :
+<p id="txtresult2"></p>
+
+<br>
+<!--3-->
+<select >
+  <option value =  "secondary-language">Please select a secondary language</option>   
+  <option value="one">English</option>
+  <option value="two">Afrikaans</option>
+  <option value="three">Zulu</option>
+</select>
+<input name="idValue" id="idValue" type="hidden">
+
+
+
+Enter Mark :
+
+<input type="text" id="Text3" name="TextBox3" oninput="myFunction3()">
+APS :
+<p id="txtresult3"></p>
+
+<br>
+<!--4-->
+<select >
+  <option value =  "secondary-language">Please select a secondary language</option>   
+  <option value="one">English</option>
+  <option value="two">Afrikaans</option>
+  <option value="three">Zulu</option>
+</select>
+<input name="idValue" id="idValue" type="hidden">
+
+
+
+Enter Mark :
+
+<input type="text" id="Text4" name="TextBox4" oninput="myFunction4()">
+APS :
+<p id="txtresult4"></p>
+
+<br>
+<!--5-->
+<select >
+  <option value =  "secondary-language">Please select a secondary language</option>   
+  <option value="one">English</option>
+  <option value="two">Afrikaans</option>
+  <option value="three">Zulu</option>
+</select>
+<input name="idValue" id="idValue" type="hidden">
+
+
+
+Enter Mark :
+
+<input type="text" id="Text5" name="TextBox5" oninput="myFunction5()">
+APS :
+<p id="txtresult5"></p>
+
+<br>
+<!--6-->
+<select >
+  <option value =  "secondary-language">Please select a secondary language</option>   
+  <option value="one">English</option>
+  <option value="two">Afrikaans</option>
+  <option value="three">Zulu</option>
+</select>
+<input name="idValue" id="idValue" type="hidden">
+
+
+
+Enter Mark :
+
+<input type="text" id="Text6" name="TextBox6" oninput="myFunction6()">
+APS :
+<p id="txtresult6"></p>
+
+<br>
+<!--7-->
+<select >
+  <option value =  "secondary-language">Please select a secondary language</option>   
+  <option value="one">English</option>
+  <option value="two">Afrikaans</option>
+  <option value="three">Zulu</option>
+</select>
+<input name="idValue" id="idValue" type="hidden">
+
+
+
+Enter Mark :
+
+<input type="text" id="Text7" name="TextBox7" oninput="myFunction7()">
+APS :
+<p id="txtresult7"></p><br><br>
+
+
+<input id="answer" oninput="myFunction2()"><br><br>
+<input id="answer3">
+<p id="txt"></p>
+
+<script>
+function myFunction1() {
+    var x = document.getElementById("Text1").value;
+    
+
+    var second_number = x ;
+    //var second_number = parseInt(x) ;
+
+    if(second_number >= 50){
+      var res = 5;
+      return res;
+    }
+      else if(5 >= 6){
+      var res = 7;
+      return res;
+    }
+
+             
+               
+}
+
+document.getElementById("demo").innerHTML = myFunction1();
+
+
+function myFunction2() {
+    var x = document.getElementById("Text2").value;
+    
+
+    var second_number = parseInt(x) ;
+
+              if (second_number >= 50 && second_number < 60) {
+                var result = 5;
+                
+                document.getElementById("txtresult2").innerHTML = result.toString();
+
+                    //if (second_number >= 50 && second_number < 60) {
+                        //var result = 5;
+                
+                        //a=Number(document.getVariable("result").value); 
+                        b=Number(document.getElementById("answer").value = result);
+                        //document.getElementById("answer").value = b;
+                        //myFunction3(b); //pass local variable to another function
+                    //}
+
+               
+                }   
+               else if (second_number >= 60 && second_number < 70) {
+                var result = 6;
+                
+                document.getElementById("txtresult2").innerHTML = result.toString();
+
+                 b=Number(document.getElementById("answer").value = result);
+
+                 //myFunction3(b);
+
+               
+                }   
+               else if (second_number >= 70 && second_number < 80) {
+                var result = 7;
+                
+                document.getElementById("txtresult2").innerHTML = result.toString();
+
+                b=Number(document.getElementById("answer").value = result);
+                 
+                 //myFunction3(b);
+
+               
+                }   
+
+                else if (second_number >= 80 && second_number < 90) {
+                var result = 8;
+                
+                document.getElementById("txtresult2").innerHTML = result.toString();
+                b=Number(document.getElementById("answer").value = result);
+                 
+                 //myFunction3(b);
+
+               
+                }   
+
+                else if (second_number >= 90) {
+                var result = 9;
+                
+                document.getElementById("txtresult2").innerHTML = result.toString();
+                b=Number(document.getElementById("answer").value = result);
+                 
+                 //myFunction3(b);
+
+               
+                }
+                
+        myFunction3(b);
+
+}
+
+//document.getElementById("answer1").value = myFunction2();
+
+function myFunction3(val) {
+
+    //var x = document.getElementById("Text3").value;
+    var v1 = val;
+    document.getElementById("answer3").value = v1;
+
+    if (v1 < 10) {
+       document.getElementById("txt").innerHTML = "Yes";
+    }
+
+
+    
+
+}  
+function myFunction4() {
+    var x = document.getElementById("Text4").value;
+    
+
+    var second_number = parseInt(x) ;
+
+    if (second_number >= 50 && second_number < 60) {
+                var result = 5;
+                
+                document.getElementById("txtresult4").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 60 && second_number < 70) {
+                var result = 6;
+                
+                document.getElementById("txtresult4").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 70 && second_number < 80) {
+                var result = 7;
+                
+                document.getElementById("txtresult4").innerHTML = result.toString();
+
+               
+                }   
+
+                else if (second_number >= 80 && second_number < 90) {
+                var result = 8;
+                
+                document.getElementById("txtresult4").innerHTML = result.toString();
+
+               
+                }   
+
+                else if (second_number >= 90) {
+                var result = 9;
+                
+                document.getElementById("txtresult4").innerHTML = result.toString();
+
+               
+                }
+
+} 
+
+function myFunction5() {
+    var x = document.getElementById("Text5").value;
+    
+
+    var second_number = parseInt(x) ;
+
+    if (second_number >= 50 && second_number < 60) {
+                var result = 5;
+                
+                document.getElementById("txtresult5").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 60 && second_number < 70) {
+                var result = 6;
+                
+                document.getElementById("txtresult5").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 70 && second_number < 80) {
+                var result = 7;
+                
+                document.getElementById("txtresult5").innerHTML = result.toString();
+
+               
+                }   
+
+                else if (second_number >= 80 && second_number < 90) {
+                var result = 8;
+                
+                document.getElementById("txtresult5").innerHTML = result.toString();
+
+               
+                }   
+
+                else if (second_number >= 90) {
+                var result = 9;
+                
+                document.getElementById("txtresult5").innerHTML = result.toString();
+
+               
+                }
+
+} 
+
+function myFunction6() {
+    var x = document.getElementById("Text6").value;
+    
+
+    var second_number = parseInt(x) ;
+
+    if (second_number >= 50 && second_number < 60) {
+                var result = 5;
+                
+                document.getElementById("txtresult6").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 60 && second_number < 70) {
+                var result = 6;
+                
+                document.getElementById("txtresult6").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 70 && second_number < 80) {
+                var result = 7;
+                
+                document.getElementById("txtresult6").innerHTML = result.toString();
+
+               
+                }  
+
+                else if (second_number >= 80 && second_number < 90) {
+                var result = 8;
+                
+                document.getElementById("txtresult6").innerHTML = result.toString();
+
+               
+                }   
+
+                else if (second_number >= 90) {
+                var result = 9;
+                
+                document.getElementById("txtresult6").innerHTML = result.toString();
+
+               
+                } 
+
+} 
+function myFunction7() {
+    var x = document.getElementById("Text7").value;
+    
+
+    var second_number = parseInt(x) ;
+
+    if (second_number >= 50 && second_number < 60) {
+                var result = 5;
+                
+                document.getElementById("txtresult7").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 60 && second_number < 70) {
+                var result = 6;
+                
+                document.getElementById("txtresult7").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 70 && second_number < 80) {
+                var result = 7;
+                
+                document.getElementById("txtresult7").innerHTML = result.toString();
+
+               
+                }   
+
+                else if (second_number >= 80 && second_number < 90) {
+                var result = 8;
+                
+                document.getElementById("txtresult7").innerHTML = result.toString();
+
+               
+                }   
+
+                else if (second_number >= 90) {
+                var result = 9;
+                
+                document.getElementById("txtresult7").innerHTML = result.toString();
+
+               
+                }
+
+} 
+</script>
+</body> 

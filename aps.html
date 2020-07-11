@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+    
+<br>
+Enter Subject :
+<br>
+<input type="text" id="Text1" name="TextBox1">
+<br>Enter Mark :
+<br>
+<input type="text" id="Text2" name="TextBox2">
+<br>APS :
+<br>
+<input type="text" id="txtresult" name="TextBox3">
+<br>
+<input type="button" name="clickbtn" value="Display Result" onclick="add_number()">
+
+
+<script>
+function add_number() {
+               
+               var first_number = parseInt(document.getElementById("Text1").value);
+               var second_number = parseInt(document.getElementById("Text2").value);
+               
+    
+              // document.getElementById("txtresult").value = result;
+               if (second_number > 50 && second_number < 60) {
+                var result = 5;
+                document.getElementById("txtresult").value = result;
+}
+
+
+           }
+
+
+</script>
+
+</body>
+</html>

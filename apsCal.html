@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+    
+<br>
+
+        <select >
+          <option value = "Please select a subject">Please select a subject</option>   
+          <option value="one">Math</option>
+          <option value="two">Math Literacy</option>
+          <option value="three">AP Math</option>
+        </select>
+        <input name="idValue" id="idValue" type="hidden">
+   
+
+
+Enter Mark :
+
+<input type="text" id="Text2" name="TextBox2">
+APS :
+
+<input type="text" id="txtresult" name="TextBox3">
+
+
+
+<!--Sub 2-->
+<br>
+
+        <select >
+          <option value = "Please select a subject">Please select a subject</option>   
+          <option value="one">Math</option>
+          <option value="two">Math Literacy</option>
+          <option value="three">AP Math</option>
+        </select>
+        <input name="idValue" id="idValue" type="hidden">
+   
+
+
+Enter Mark :
+
+<input type="text" id="Text2" name="TextBox2">
+APS :
+
+<input type="text" id="txtresult" name="TextBox3">
+
+
+
+<!--Sub 3-->
+<br>
+
+        <select >
+          <option value = "Please select a subject">Please select a subject</option>   
+          <option value="one">Math</option>
+          <option value="two">Math Literacy</option>
+          <option value="three">AP Math</option>
+        </select>
+        <input name="idValue" id="idValue" type="hidden">
+   
+
+
+Enter Mark :
+
+<input type="text" id="Text2" name="TextBox2">
+APS :
+
+<input type="text" id="txtresult" name="TextBox3">
+
+
+
+<!--Sub 4-->
+<br>
+
+        <select >
+          <option value = "Please select a subject">Please select a subject</option>   
+          <option value="one">Math</option>
+          <option value="two">Math Literacy</option>
+          <option value="three">AP Math</option>
+        </select>
+        <input name="idValue" id="idValue" type="hidden">
+   
+
+
+Enter Mark :
+
+<input type="text" id="Text2" name="TextBox2">
+APS :
+
+<input type="text" id="txtresult" name="TextBox3">
+
+
+
+
+<!--Sub 5-->
+<br>
+
+        <select >
+          <option value = "Please select a subject">Please select a subject</option>   
+          <option value="one">Math</option>
+          <option value="two">Math Literacy</option>
+          <option value="three">AP Math</option>
+        </select>
+        <input name="idValue" id="idValue" type="hidden">
+   
+
+
+Enter Mark :
+
+<input type="text" id="Text2" name="TextBox2">
+APS :
+
+<input type="text" id="txtresult" name="TextBox3">
+
+
+
+
+<!--Sub 6-->
+<br>
+
+        <select >
+          <option value = "Please select a subject">Please select a subject</option>   
+          <option value="one">Math</option>
+          <option value="two">Math Literacy</option>
+          <option value="three">AP Math</option>
+        </select>
+        <input name="idValue" id="idValue" type="hidden">
+   
+
+
+Enter Mark :
+
+<input type="text" id="Text2" name="TextBox2">
+APS :
+
+<input type="text" id="txtresult" name="TextBox3">
+
+
+
+
+<!--Sub 7-->
+<br>
+
+        <select >
+          <option value = "Please select a subject">Please select a subject</option>   
+          <option value="one">Math</option>
+          <option value="two">Math Literacy</option>
+          <option value="three">AP Math</option>
+        </select>
+        <input name="idValue" id="idValue" type="hidden">
+   
+
+
+Enter Mark :
+
+<input type="text" id="Text2" name="TextBox2" oninput="add_number()">
+
+
+APS :
+
+<p id="txtresult"></p>
+
+
+<br>
+
+<!--<input type="button" name="clickbtn" value="Display Result" onclick="add_number()">  how to display using button-->
+<script>
+
+
+
+function add_number() {
+               
+
+
+               
+               var second_number = parseInt(document.getElementById("Text2").value);
+               
+    
+              // document.getElementById("txtresult").value = result;
+               if (second_number >= 50 && second_number < 60) {
+                var result = 5;
+                 document.getElementById("txtresult").value = result;
+                
+               
+                }   
+                else if (second_number >= 60 && second_number < 70){
+                    var result = 6;
+                document.getElementById("txtresult").value = result;
+                }     
+
+                else if (second_number >= 70 && second_number < 80){
+                    var result = 7;
+                document.getElementById("txtresult").value = result;
+                }     
+
+                else if (second_number >= 80 && second_number < 90){
+                    var result = 8;
+                document.getElementById("txtresult").value = result;
+                }     
+
+                else if (second_number >= 90){
+                    var result = 9;
+                document.getElementById("txtresult").value = result;
+                }   
+
+                var string = second_number.toString;
+                document.getElementById("txtresult").innerHTML=string;
+                  
+           }
+
+           
+
+</script>
+
+</body>
+</html>

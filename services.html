@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>APS Generator</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="css/prettyPhoto.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- =======================================================
+    Theme Name: Company
+    Theme URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+  <style>
+    .sub{
+      color: #000000;
+      
+      padding: 7px 12px;
+    }
+
+
+    p{
+      display: inline-block;
+      
+    }
+
+    select{
+      width:300px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+            <div class="navbar-brand">
+              <a href="index.php"><h1><span>CAREER </span>PATH <span>SELECTION</span></h1></a>
+            </div>
+          </div>
+
+          <div class="navbar-collapse collapse">
+            <div class="menu">
+              <ul class="nav nav-tabs" role="tablist">
+               <li role="presentation"><a href="services.html">APS Score</a></li>
+                <li role="presentation"><a href="portfolio.html">Questionnaire</a></li>
+                <li role="presentation"><a href="uni.html">Institutions & Prospectus</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="breadcrumb">
+    <div class="container">
+      <div class="breadcrumb">
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="services">
+    <div class="container">
+      <br>
+      <h3>APS Score Generator</h3>
+      <hr>
+      
+        <div class="row contact-wrap">
+        
+          
+            <p>
+              <div class="sub">
+                
+                <select >
+                  <option value =  "primary-language">Please select a primary language  </option>   
+                  <option value="one">English</option>
+                  <option value="two">Afrikaans</option>
+                  <option value="three">Zulu</option>
+                </select>
+                <input name="idValue" id="idValue" type="hidden">
+                &nbsp;&nbsp;
+               Enter Mark :
+                &nbsp;&nbsp;
+                <input type="text" id="Text1" name="TextBox2" oninput="myFunction1()" >
+                &nbsp;&nbsp;
+                APS :&nbsp;&nbsp;
+                <p id =txtresult ></p>
+                  <br>
+
+                <select >
+                        <option value =  "primary-language">Please select a primary language     </option>   
+                        <option value="one">English</option>
+                        <option value="two">Afrikaans</option>
+                        <option value="three">Zulu</option>
+                      </select>
+                      <input name="idValue" id="idValue" type="hidden">
+
+                        &nbsp;&nbsp;
+
+                    Enter Mark :
+&nbsp;&nbsp;
+                    <input type="text" id="Text2" name="TextBox2" oninput="myFunction2()">
+                    &nbsp;&nbsp;
+                    APS : &nbsp;&nbsp;
+                    <p id="txtresult2"></p>
+&nbsp;&nbsp;
+                    <br>
+                    <!--3-->
+                    <select >
+                      <option value =  "secondary-language">Please select a secondary language</option>   
+                      <option value="one">English</option>
+                      <option value="two">Afrikaans</option>
+                      <option value="three">Zulu</option>
+                    </select>
+                    <input name="idValue" id="idValue" type="hidden">
+
+
+&nbsp;&nbsp;
+                    Enter Mark :
+&nbsp;&nbsp;
+                    <input type="text" id="Text3" name="TextBox3" oninput="myFunction3()">
+                    &nbsp;&nbsp;
+                    APS : &nbsp;&nbsp;
+                    <p id="txtresult3"></p>
+&nbsp;&nbsp;
+                    <br>
+                    <!--4-->
+                    <select >
+                      <option value =  "secondary-language">Please select a secondary language</option>   
+                      <option value="one">English</option>
+                      <option value="two">Afrikaans</option>
+                      <option value="three">Zulu</option>
+                    </select>
+                    <input name="idValue" id="idValue" type="hidden">
+&nbsp;&nbsp;
+
+
+                    Enter Mark :
+&nbsp;&nbsp;
+                    <input type="text" id="Text4" name="TextBox4" oninput="myFunction4()">
+                    &nbsp;&nbsp;
+                    APS : &nbsp;&nbsp;
+                    <p id="txtresult4"></p>
+&nbsp;&nbsp;
+                    <br>
+                    <!--5-->
+                    <select >
+                      <option value =  "secondary-language">Please select a secondary language</option>   
+                      <option value="one">English</option>
+                      <option value="two">Afrikaans</option>
+                      <option value="three">Zulu</option>
+                    </select>
+                    <input name="idValue" id="idValue" type="hidden">
+
+
+&nbsp;&nbsp;
+                    Enter Mark :
+&nbsp;&nbsp;
+                    <input type="text" id="Text5" name="TextBox5" oninput="myFunction5()"> 
+                    &nbsp;&nbsp;
+                    APS :&nbsp;&nbsp;
+                    <p id="txtresult5"></p>
+&nbsp;&nbsp;
+                    <br>
+                    <!--6-->
+                    <select >
+                      <option value =  "secondary-language">Please select a secondary language</option>   
+                      <option value="one">English</option>
+                      <option value="two">Afrikaans</option>
+                      <option value="three">Zulu</option>
+                    </select>
+                    <input name="idValue" id="idValue" type="hidden">
+&nbsp;&nbsp;
+
+
+                    Enter Mark :
+&nbsp;&nbsp;
+                    <input type="text" id="Text6" name="TextBox6" oninput="myFunction6()">
+                    &nbsp;&nbsp;
+                    APS : &nbsp;&nbsp;
+                    <p id="txtresult6"></p>
+&nbsp;&nbsp;
+                    <br>
+                    <!--7-->
+                    <select >
+                      <option value =  "secondary-language">Please select a secondary language</option>   
+                      <option value="one">English</option>
+                      <option value="two">Afrikaans</option>
+                      <option value="three">Zulu</option>
+                    </select>
+                    <input name="idValue" id="idValue" type="hidden">
+
+&nbsp;&nbsp;
+
+                    Enter Mark :
+&nbsp;&nbsp;
+                    <input type="text" id="Text7" name="TextBox7" oninput="myFunction7()">
+                    &nbsp;&nbsp;
+                    APS : &nbsp;&nbsp;
+                    <p id="txtresult7"></p>
+&nbsp;&nbsp;
+                </p>
+              </div>
+            
+            
+          
+        
+      </div>
+    </div>
+
+  </div>
+
+  
+
+
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="social-icon">
+          <div class="col-md-4">
+            <ul class="social-network">
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-md-offset-4">
+          <div class="copyright">
+          </div>
+        </div>
+      </div>
+      <div class="pull-right">
+        <a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.prettyPhoto.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/functions.js"></script>
+  <script>
+function myFunction1() {
+    var x = document.getElementById("Text1").value;
+    
+
+    var second_number = parseInt(x) ;
+
+    if (second_number >= 50 && second_number < 60) {
+                var result = 5;
+                
+                document.getElementById("txtresult").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 60 && second_number < 70) {
+                var result = 6;
+                
+                document.getElementById("txtresult").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 70 && second_number < 80) {
+                var result = 7;
+                
+                document.getElementById("txtresult").innerHTML = result.toString();
+
+               
+                }
+
+                else if (second_number >= 80 && second_number < 90) {
+                var result = 8;
+                
+                document.getElementById("txtresult").innerHTML = result.toString();
+
+               
+                }   
+
+                else if (second_number >= 90) {
+                var result = 9;
+                
+                document.getElementById("txtresult").innerHTML = result.toString();
+
+               
+                }
+
+               
+}
+
+function myFunction2() {
+    var x = document.getElementById("Text2").value;
+    
+
+    var second_number = parseInt(x) ;
+
+    if (second_number >= 50 && second_number < 60) {
+                var result = 5;
+                
+                document.getElementById("txtresult2").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 60 && second_number < 70) {
+                var result = 6;
+                
+                document.getElementById("txtresult2").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 70 && second_number < 80) {
+                var result = 7;
+                
+                document.getElementById("txtresult2").innerHTML = result.toString();
+
+               
+                }   
+
+                else if (second_number >= 80 && second_number < 90) {
+                var result = 8;
+                
+                document.getElementById("txtresult2").innerHTML = result.toString();
+
+               
+                }   
+
+                else if (second_number >= 90) {
+                var result = 9;
+                
+                document.getElementById("txtresult2").innerHTML = result.toString();
+
+               
+                }
+}
+
+function myFunction3() {
+    var x = document.getElementById("Text3").value;
+    
+
+    var second_number = parseInt(x) ;
+
+    if (second_number >= 50 && second_number < 60) {
+                var result = 5;
+                
+                document.getElementById("txtresult3").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 60 && second_number < 70) {
+                var result = 6;
+                
+                document.getElementById("txtresult3").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 70 && second_number < 80) {
+                var result = 7;
+                
+                document.getElementById("txtresult3").innerHTML = result.toString();
+
+               
+                }   
+                else if (second_number >= 80 && second_number < 90) {
+                var result = 8;
+                
+                document.getElementById("txtresult3").innerHTML = result.toString();
+
+               
+                }   
+
+                else if (second_number >= 90) {
+                var result = 9;
+                
+                document.getElementById("txtresult3").innerHTML = result.toString();
+
+               
+                }
+
+}  
+function myFunction4() {
+    var x = document.getElementById("Text4").value;
+    
+
+    var second_number = parseInt(x) ;
+
+    if (second_number >= 50 && second_number < 60) {
+                var result = 5;
+                
+                document.getElementById("txtresult4").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 60 && second_number < 70) {
+                var result = 6;
+                
+                document.getElementById("txtresult4").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 70 && second_number < 80) {
+                var result = 7;
+                
+                document.getElementById("txtresult4").innerHTML = result.toString();
+
+               
+                }   
+
+                else if (second_number >= 80 && second_number < 90) {
+                var result = 8;
+                
+                document.getElementById("txtresult4").innerHTML = result.toString();
+
+               
+                }   
+
+                else if (second_number >= 90) {
+                var result = 9;
+                
+                document.getElementById("txtresult4").innerHTML = result.toString();
+
+               
+                }
+
+} 
+
+function myFunction5() {
+    var x = document.getElementById("Text5").value;
+    
+
+    var second_number = parseInt(x) ;
+
+    if (second_number >= 50 && second_number < 60) {
+                var result = 5;
+                
+                document.getElementById("txtresult5").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 60 && second_number < 70) {
+                var result = 6;
+                
+                document.getElementById("txtresult5").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 70 && second_number < 80) {
+                var result = 7;
+                
+                document.getElementById("txtresult5").innerHTML = result.toString();
+
+               
+                }   
+
+                else if (second_number >= 80 && second_number < 90) {
+                var result = 8;
+                
+                document.getElementById("txtresult5").innerHTML = result.toString();
+
+               
+                }   
+
+                else if (second_number >= 90) {
+                var result = 9;
+                
+                document.getElementById("txtresult5").innerHTML = result.toString();
+
+               
+                }
+
+} 
+
+function myFunction6() {
+    var x = document.getElementById("Text6").value;
+    
+
+    var second_number = parseInt(x) ;
+
+    if (second_number >= 50 && second_number < 60) {
+                var result = 5;
+                
+                document.getElementById("txtresult6").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 60 && second_number < 70) {
+                var result = 6;
+                
+                document.getElementById("txtresult6").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 70 && second_number < 80) {
+                var result = 7;
+                
+                document.getElementById("txtresult6").innerHTML = result.toString();
+
+               
+                }  
+
+                else if (second_number >= 80 && second_number < 90) {
+                var result = 8;
+                
+                document.getElementById("txtresult6").innerHTML = result.toString();
+
+               
+                }   
+
+                else if (second_number >= 90) {
+                var result = 9;
+                
+                document.getElementById("txtresult6").innerHTML = result.toString();
+
+               
+                } 
+
+} 
+function myFunction7() {
+    var x = document.getElementById("Text7").value;
+    
+
+    var second_number = parseInt(x) ;
+
+    if (second_number >= 50 && second_number < 60) {
+                var result = 5;
+                
+                document.getElementById("txtresult7").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 60 && second_number < 70) {
+                var result = 6;
+                
+                document.getElementById("txtresult7").innerHTML = result.toString();
+
+               
+                }   
+               else if (second_number >= 70 && second_number < 80) {
+                var result = 7;
+                
+                document.getElementById("txtresult7").innerHTML = result.toString();
+
+               
+                }   
+
+                else if (second_number >= 80 && second_number < 90) {
+                var result = 8;
+                
+                document.getElementById("txtresult7").innerHTML = result.toString();
+
+               
+                }   
+
+                else if (second_number >= 90) {
+                var result = 9;
+                
+                document.getElementById("txtresult7").innerHTML = result.toString();
+
+               
+                }
+
+} 
+</script>
+</body>
+
+</html>
